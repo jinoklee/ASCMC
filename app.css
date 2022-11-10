@@ -1,0 +1,21 @@
+
+#Help-content .scrollspy-section {
+  height: 800px;
+  border: 30px solid #FFF;
+}
+#Help-scrollspy {
+  position: fixed;
+  border : 1px solid black;
+  height: 800px;
+}
+#Help-scrollspy li > a {
+  background-color: #FFF;
+}
+#Help-scrollspy li > a:hover {
+  background-color: #EEE;
+  color :#18BC9C;
+  font-weight: bold;
+}
+#Help-scrollspy li.active > a {
+  background-color: #AAA;
+}
